@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ffffed;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+.HeaderDeco{
+     
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.HeaderText1{
+     
+    border-radius: 50%; 
+    text-align: center; 
+ 
+    color: #ffffed;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.35s; 
+    font-weight: 250; 
+    word-spacing: 8px; 
+} 
+.HeaderText1:hover{
+word-spacing: 20px; 
+}
+.dummy{
+    
+    width: 20%; 
+    border-radius: 20px;
+    transition: 0.35s; 
+    min-width: 300px;
+    margin: 20px;
+    opacity: 100%;
+    box-shadow: 0 0 35px rgb(30, 1, 1);
+}
+.dummy:hover{
+    width: 21.5%;
+    border-radius: 20px;
+    opacity: 95%;
+    fill-opacity: 100%;
+    box-shadow: 0 0 35px rgb(2, 8, 27);
+}
+.Mainer{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    min-height: 500px; 
+    flex-direction: row;
+} 
+.NormalText1{
+    width: 10%; 
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 350;
+    transition: 0.25s  ;  
+
+}
+.NormalText1:hover{
+    width: 11.5%;   
+    align-items: center;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    
+} 
+.Small_intro{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.Text1{ 
+    width: 20%;
+    height: 240px;
+    padding: 7px;
+    flex-direction: column;
+    display: flex;
+    background-color: #fdf5d7;
+    box-shadow: 0 0 20px rgb(105, 97, 82);
+    border-radius: 20px;
+    align-items: center;
+    margin: 20px;
+    transition: 0.3s;
+}
+.Text1:hover{
+    width: 21%;
+    height: 280;
+    padding: 8px;
+}
+.subheader1{
+
+    text-align: center;
+    font-family: "Caveat", serif;
+    font-size: 35px;
+    font-weight: 700; 
+    word-spacing: 4px; 
+    color: rgb(43, 24, 31);
+}
+.subtext1{
+
+    text-align: center;
+    font-family: "Caveat", serif;
+    font-size: 20px;
+    max-width: 300px;
+    width: 90%;
+    font-weight: 700; 
+    color: rgb(43, 24, 31);
+    word-spacing: 2px; 
+}

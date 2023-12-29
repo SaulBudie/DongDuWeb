@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caveat">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Động Dù</title>
+    <link rel="stylesheet" href="DongDu.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="HeaderDeco">
+        <h1 class="HeaderText1">A website for Dong Du</h1>
+      </div>
+    </div>
+    <div class="Mainer">
+      <img src="" class="dummy" id="headerimages" />
+      <p class="NormalText1">We may be dumb but were we that dumb?</p>
+    </div>
+    <div class="Small_intro">
+        <div class="Text1"><br>
+          <p class="subheader1">Now what is Dong Du?</p>
+          <br><br>
+          <p class="subtext1">Dong Du is a non-governmental group of domestic terrorists. Each and every single member of the gang is diagnosed with BPD! Be nice and be fly!</p><br>
+        </div>
+    </div>
+  </body>
+  <script type="text/javascript">
+    let image = document.getElementById("headerimages");
+    let images = [
+      "Resources/Header1.jpg",
+      "Resources/Header2.jpg",
+      "Resources/Header3.jpg",
+      "Resources/Header4.jpg",
+      "Resources/Header5.jpg",
+      "Resources/Header6.jpg",
+    ];
+
+    let i = 5;
+    setInterval(() => {
+      i += 1;
+      image.src = images[i % 6];
+    }, 2500);
+  </script>
+</html>
