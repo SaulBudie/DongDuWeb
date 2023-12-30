@@ -96,6 +96,26 @@ word-spacing: 20px;
     width: 21%;
     height: 280;
     padding: 8px;
+    background-color: #d7fddadf;
+}
+.Text2{ 
+    width: 17.5%;
+    height: 240px;
+    padding: 7px;
+    flex-direction: column;
+    display: flex;
+    background-color: #fdf5d7;
+    box-shadow: 0 0 20px rgb(105, 97, 82);
+    border-radius: 20px;
+    align-items: center;
+    margin: 20px;
+    transition: 0.3s;
+}
+.Text2:hover{
+    width: 18.5%;
+    height: 280;
+    padding: 8px;
+    background-color: #d7e0fddf;
 }
 .subheader1{
 
@@ -113,7 +133,7 @@ word-spacing: 20px;
     font-size: 20px;
     max-width: 300px;
     width: 90%;
-    font-weight: 700; 
+    font-weight: 700;  
     color: rgb(43, 24, 31);
     word-spacing: 2px; 
 }
